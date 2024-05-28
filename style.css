@@ -5,12 +5,13 @@ body {
 .bigflex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro {
     width: 600px;
     text-align: center;
-    margin-left: 31%;
 }
 .main {
     color: hsl(234, 12%, 34%, 0.8);
